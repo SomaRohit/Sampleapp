@@ -1,0 +1,32 @@
+{
+  "name": "namstereact",
+  "version": "1.0.0",
+  "description": "Creating my own React Learning",
+  
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cager2808/FoodApp.git"
+  },
+  "keywords": [
+    "Ratik-react"
+  ],
+  "author": "Ratik Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cager2808/FoodApp.git/issues"
+  },
+  "homepage": "https://github.com/Cager2808/FoodApp.git#readme",
+  "dependencies": {
+    "parcel": "^2.10.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

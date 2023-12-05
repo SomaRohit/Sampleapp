@@ -1,0 +1,20 @@
+Header
+    -Logo
+    -Nav Items
+        -Home
+        -My Order
+        -Contact
+        -Profile
+Body
+    -Search
+    -RestaurantContainer
+        -RestaurantCard
+    -Cusine
+Footer
+    -Copyright
+    -Links
+    -Address
+    -Contact
+    
+        
+
