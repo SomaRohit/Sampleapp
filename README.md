@@ -19,3 +19,18 @@
 
 #NOTE :
 npm start = npm run start 
+
+#
+Never use Indexes as a key 
+
+#Two type of Import/export
+-Default
+-Named 
+
+
+#React Hooks
+- Normal JS  utility function
+- Facebook Developer
+- Inside React
+
+
