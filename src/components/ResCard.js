@@ -2,13 +2,13 @@ import { CDN_URL } from "../Utils/constants";
 const ResCard=(props )=>{
     const {resData}=props;
     const{
-    name,
-    cuisines,
-    avgRating,
-    costForTwo,
-    cloudinaryImageId,
-    deliveryTime,
-    }=resData?.data
+        name,
+        cuisines,
+        avgRating,
+        costForTwo,
+        cloudinaryImageId,
+        deliveryTime,
+        }=resData?.data;
     return(
         <div className="res-card">
             <img className="res-card-logo" src={

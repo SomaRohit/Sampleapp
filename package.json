@@ -1,7 +1,7 @@
 {
-  "name": "namstereact",
+  "name": "KhanaDhaba",
   "version": "1.0.0",
-  "description": "Creating my own React Learning",
+  "description": "Food Ordering App",
   
   "scripts": {
     "start": "parcel index.html",
