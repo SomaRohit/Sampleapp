@@ -609,6 +609,7 @@ const restrautList = [
       },
       subtype: "basic",
     },
+    //comment
     {
       type: "restaurant",
       data: {
