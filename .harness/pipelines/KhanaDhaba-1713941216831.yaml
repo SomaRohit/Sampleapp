@@ -1,0 +1,33 @@
+pipeline:
+  name: Build App
+  identifier: Build_Cager2808_KhanaDhaba_1713941238897
+  projectIdentifier: KhanaDhaba
+  orgIdentifier: default
+  stages:
+    - stage:
+        name: Build
+        identifier: Build
+        type: CI
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Echo Welcome Message
+                  identifier: Echo_Welcome_Message
+                  spec:
+                    shell: Sh
+                    command: echo "Welcome to Harness CI"
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+  properties:
+    ci:
+      codebase:
+        connectorRef: account.Github_OAuth_1698735122136
+        repoName: Cager2808/KhanaDhaba
+        build: <+input>
