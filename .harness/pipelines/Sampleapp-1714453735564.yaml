@@ -1,0 +1,33 @@
+pipeline:
+  name: first-pipeline
+  identifier: Build_SomaRohit_Sampleapp_1714453988577
+  projectIdentifier: Sampleproject
+  orgIdentifier: default
+  stages:
+    - stage:
+        name: Build
+        identifier: Build
+        type: CI
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Echo Welcome Message
+                  identifier: Echo_Welcome_Message
+                  spec:
+                    shell: Sh
+                    command: echo "Welcome to Harness CI"
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+  properties:
+    ci:
+      codebase:
+        connectorRef: account.Github_OAuth_1714453645562
+        repoName: SomaRohit/Sampleapp
+        build: <+input>
