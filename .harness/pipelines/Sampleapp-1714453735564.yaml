@@ -18,7 +18,7 @@ pipeline:
                   identifier: Echo_Welcome_Message
                   spec:
                     shell: Bash
-                    command: echo "Welcome to rohit project'
+                    command: echo "Welcome to rohit project"
           platform:
             os: Linux
             arch: Amd64
