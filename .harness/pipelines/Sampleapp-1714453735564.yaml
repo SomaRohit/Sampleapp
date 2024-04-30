@@ -17,8 +17,8 @@ pipeline:
                   name: Echo Welcome Message
                   identifier: Echo_Welcome_Message
                   spec:
-                    shell: Sh
-                    command: echo "Welcome to Harness CI"
+                    shell: Bash
+                    command: echo "Welcome to rohit project'
           platform:
             os: Linux
             arch: Amd64
@@ -31,3 +31,4 @@ pipeline:
         connectorRef: account.Github_OAuth_1714453645562
         repoName: SomaRohit/Sampleapp
         build: <+input>
+  tags: {}
