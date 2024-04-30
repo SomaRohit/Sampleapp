@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SomaRohit_Sampleapp_1714453988577-push-trigger-input-set
+  identifier: Build_SomaRohit_Sampleapp_1714453988577pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Sampleproject
+  pipeline:
+    identifier: Build_SomaRohit_Sampleapp_1714453988577
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
