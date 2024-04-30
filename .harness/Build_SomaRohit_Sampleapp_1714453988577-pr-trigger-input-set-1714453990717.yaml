@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SomaRohit_Sampleapp_1714453988577-pr-trigger-input-set
+  identifier: Build_SomaRohit_Sampleapp_1714453988577prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Sampleproject
+  pipeline:
+    identifier: Build_SomaRohit_Sampleapp_1714453988577
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
